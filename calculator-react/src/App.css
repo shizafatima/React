@@ -15,7 +15,7 @@
   padding: 20px;
 }
 
-form input {
+.calculator-body input {
   border: none;
   outline: 0;
   width: 60px;
@@ -27,20 +27,20 @@ form input {
   cursor: pointer;
 }
 
-form input[type="button"]:hover {
+.calculator-body input[type="button"]:hover {
   background-color: rgb(107, 104, 104);
   color: white;
 
 }
 
-form .display {
+.calculator-body .display {
   display: flex;
   justify-content: flex-end;
   margin: 5px 0px 15px 0px;
 
 }
 
-form .display input {
+.calculator-body .display input {
   background-color: rgb(88, 86, 86);
   color: white;
   text-align: right;
@@ -48,7 +48,7 @@ form .display input {
   padding: 5px 10px;
 }
 
-form input.equal{
+.calculator-body input.equal{
   width: 123px;
   
 

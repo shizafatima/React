@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="container">
       <div className="calculator">
-        <form action="">
+        <div className='calculator-body'>
           <div className='display'>
             <input type="text"  value={input}/>
           </div>
@@ -65,7 +65,7 @@ function App() {
             <input type="button" value="00" onClick={() => handleClick('00')}/>
             <input type="button" value="=" className='equal' onClick={handleEqual}/>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   )
