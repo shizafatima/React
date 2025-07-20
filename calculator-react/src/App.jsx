@@ -48,7 +48,7 @@ function App() {
 
           <div>
             <input type="button" value="4" onClick={() => handleClick('4')}/>
-            <input type="button" value="5" onClick={() => handleClick('3')}/>
+            <input type="button" value="5" onClick={() => handleClick('5')}/>
             <input type="button" value="6" onClick={() => handleClick('6')}/>
             <input type="button" value="+" onClick={() => handleClick('+')}/>
           </div>
